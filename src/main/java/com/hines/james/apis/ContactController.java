@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("contact")
+@RequestMapping("apis/v1/contact")
 @RequiredArgsConstructor
 @Slf4j
 public class ContactController {

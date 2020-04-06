@@ -8,8 +8,8 @@ import java.util.List;
 
 @Data
 public class ErrorResponse {
+    private String description = "Please correct the listed validation errors and try re-submitting your request";
     private List<ErrorDetails> errors = new ArrayList<>();
-    private String description = "Please correct the following validation errors and try re-submitting your request";
 
     @Data
     @AllArgsConstructor
