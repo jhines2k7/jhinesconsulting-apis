@@ -16,6 +16,7 @@ public class ContactController {
     private final EmailService emailService;
 
     @PostMapping()
+    @CrossOrigin
     @ResponseStatus(HttpStatus.CREATED)
     public void saveContact(@Valid @RequestBody ContactRequestData contactRequestData) {
         Thread saveContactThread = new Thread(() -> {

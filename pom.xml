@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hines.james</groupId>
 	<artifactId>jhinesconsulting-apis</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.8.0-SNAPSHOT</version>
 	<name>jhinesconsulting-apis</name>
 	<description>RESTful API that powers the backend of jhinesconsulting.com</description>
 
