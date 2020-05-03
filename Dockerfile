@@ -2,8 +2,6 @@ FROM openjdk:14-jdk-alpine
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 ARG DEPENDENCY=target/dependency
-ARG VERSION="1.0.0"
-ARG REVISION="-SNAPSHOT"
 EXPOSE 8443
 COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
 COPY ${DEPENDENCY}/META-INF /app/META-INF

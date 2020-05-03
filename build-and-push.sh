@@ -3,7 +3,7 @@
 ./mvnw package
 mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 
-VERSION=1.8.0
+VERSION=1.9.0
 
 if [ "$ENV" = "dev" ] ; then
     docker build -t jhines2017/jhinesconsulting-apis:$VERSION-SNAPSHOT \
